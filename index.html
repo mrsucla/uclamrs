@@ -1,95 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>MRS - Materials Research Society, UCLA</title>
-<link href="assets/css/styles.css" rel="stylesheet">
+    <meta charset="UTF-8"/> <!-- setting up metadata about this doc -->
+    <meta name="viewport" content="width-device-width, initial scale=1, shrink-to-fit=no"/> <!-- how the doc changes with screen width -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Materials Research Society at UCLA - Home</title>
+    <link href="styles.css" rel="stylesheet"> <!-- set up link between index and css file -->
+    <!-- for social media icons -->
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <!-- for fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
 <body>
- <div class="navbar">
-  <a href="http://www.seas.ucla.edu/mrs/" style ="padding: 0px 0px;"><img src="Photos/mrswhiteonbluemrs.png" style ="width:130px; padding: 0px 0px;"></a>
-  <a href="http://www.seas.ucla.edu/mrs/AboutUs">About Us</a>
-  <a href="http://www.seas.ucla.edu/mrs/Events">Events</a>
-  <div class="dropdown">
-    <button class="dropbtn">Research
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="http://www.seas.ucla.edu/mrs/Research/Opportunities.html">Opportunities</a>
-      <a href="http://www.seas.ucla.edu/mrs/Research/JournalClub.html">Journal Club</a>
-      <a href="http://www.seas.ucla.edu/mrs/Research/Articles.html">Interesting Articles</a>
+    <!-- Navigation top bar-->
+    <img class="mrs-logo" src=/Photos/mrsblueonwhite.png>
+    <div class="home-nav-container">
+        <div class="wrapper">
+        <nav>
+            <ul class="home-nav-items"> <!-- unordered list of items -->
+                <li><a href="index.html"> Home </a></li>
+                <li><a href="aboutus.html"> About Us </a></li>
+                <li><a href="#"> Events </a></li>
+                <li><a href="#"> Research </a></li>
+                <li><a href="#"> SAMPE </a></li>
+                <li><a href="#"> Sponsors </a></li>
+                <li><a href="#"> Join Us </a></li>
+            </ul>
+        </nav>
+        </div>
     </div>
-  </div>
-  <div class="dropdown">
-    <button class="dropbtn">Photos
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="http://www.seas.ucla.edu/mrs/Photos/1920.html">2019-20</a>
-      <a href="http://www.seas.ucla.edu/mrs/Photos/1819.html">2018-19</a>
-      <a href="http://www.seas.ucla.edu/mrs/Photos/1718.html">2017-18</a>
+    
+    <!-- Picture slideshow to represent MRS with logo overlay-->
+    <div class="front-picture-container">
+        <div class="slideshow-container">
+            <img class="slides" src="Photos/Carousel_Photos/IMG_1.jpg">
+            <img class="slides" src="Photos/Carousel_Photos/IMG_2.jpg">
+            <img class="slides" src="Photos/Carousel_Photos/IMG_3.jpg">
+            <img class="slides" src="Photos/Carousel_Photos/IMG_4.jpg">
+            <img class="slides" src="Photos/Carousel_Photos/IMG_5.jpg">
+        </div>
+        <button class="join-us-button" onclick="window.location.href = 'http://www.seas.ucla.edu/mrs/Join';">Join Us!</button>
     </div>
-  </div>
-  <a href="http://www.seas.ucla.edu/mrs/Sponsors">Sponsors</a>
-  <div class="dropdown">
-    <button class="dropbtn">SAMPE
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="http://www.seas.ucla.edu/mrs/SAMPE#Competition">Competition</a>
-      <a href="http://www.seas.ucla.edu/mrs/SAMPE#Sponsors">Sponsors</a>
-      <a href="http://www.seas.ucla.edu/mrs/SAMPE#Photos">Photos</a>
+    <!-- Intro text-->
+    <div class="wrapper">
+        <div class="intro-blurb">
+            <h5>Hello Bruins! Welcome to the Materials Research Society, where we are passionate about all things materials engineering. We host quarterly professional, research, and social events that strive to provide guidance for students and develop a strong community. We aim to be as transparent as possible to help students make the best decision for themselves. Feel free to reach out with any questions you may have.</h5>
+        </div>
     </div>
-  </div>
-  <a href="http://www.seas.ucla.edu/mrs/Join">How To Join</a>
-<!-- Social Media -->
-    <a href="http://facebook.us14.list-manage.com/subscribe?u=0b216be82e1c52c9791bf5b11&id=bb73512ccc" style ="padding: 5px 5px; float:right"><img src="Photos/FrontPage/newsletter.png" style ="width:35px;"></a>
-	<a href="http://www.instagram.com/mrsucla/" style ="padding: 5px 5px; float:right"><img src="Photos/FrontPage/instagram.png" style ="width:35px"></a>
-	<a href="https://www.facebook.com/MRSUCLA/" style ="padding: 5px 5px; float:right"><img src="Photos/FrontPage/facebook.png" style ="width:35px"></a>
-	
-</div> 
+    <!-- Blurbs-->
+    <div class="mini-blurb-lightblue">
+        <div class="wrapper">
+            <div class="blurb-picture-container1">
+                <img class="blurb-picture" src="/Photos/Blurb_Photos/professional.jpg">
+            </div>
+            <div class="blurb-text-container1">
+                <h6>Professional Development</h6>
+                <h7>MRS offers various opportunities for professional development and networking within the materials engineering community. We co-host a career fair with other UCLA engineering organizations during the fall and organize preparatory events like resume workshops. Our events are a great way to increase connections with UCLA alum and industry representatives which may lead to employment after graduation.</h7>
+            </div>
+        </div>
+    </div>
 
-<!-- Picture slideshow to represent MRS with logo overlay-->
-<div class="photossection" style="max-width:550px">
-<img class="mySlides" src="Photos/FrontPage/IMG_1.jpg" style="width:100%" alt="PICTURE1">
-<img class="mySlides" src="Photos/FrontPage/IMG_2.jpg" style="width:100%" alt="PICTURE2">
-<img class="mySlides" src="Photos/FrontPage/IMG_3.jpg" style="width:100%" alt="PICTURE3">
-<img class="mySlides" src="Photos/FrontPage/IMG_4.jpg" style="width:100%" alt="PICTURE4">
-<img class="mySlides" src="Photos/FrontPage/IMG_5.jpg" style="width:100%" alt="PICTURE5">
-</div>
 
-<!--Discover Engineering Day Blurb-->
-<div class="section"> 
-    <p><font size="4"> Hello prospective Bruins! Welcome to the Materials Research Society, where we are passionate about all things materials engineering. We host quarterly professional, research, and social events that strive to provide guidance for students and develop a strong community. We aim to be as transparent as possible to help students make the best decision for themselves. Feel free to reach out with any questions you may have.</font></p>
- </div>
-    
-<!--Join Us Button-->
-<br><p align=center><button class= "button" onclick="window.location.href = 'http://www.seas.ucla.edu/mrs/Join';">JOIN US</button></p><br>   
-    
-<!--Mission Statement-->
-<h1>Our Mission</h1>
-<div class="section"> 
-    <p>MRS is the premiere organization for the Materials Science and Engineering Department at UCLA. We aim to provide members with hands on opportunities to work with Materials, guidance in finding Research positions, and forming a supportive well connected Society.</p>
-</div>
-    
-<!-- board photo-->
-<div style="position: relative; margin-left: auto; margin-right: auto;;float:top; float:left;"><img src="Photos/GroupPhoto20192020.jpg" style= "width:100%;" alt="2018-2019 MRS Board">
-<div class="overlay" onclick="location.href='https://www.seas.ucla.edu/mrs/AboutUs.html';"><div class="centered">Meet our board!</div></div>
-</div>
-
+    <!-- Footer-->
+    <footer>
+    <div class="footer-container">
+        <div class="wrapper">
+                <div class="media-icons-container">
+                    <a class="media-icons" href= "https://www.facebook.com/MRSUCLA">
+                        <div class="fab fa-facebook-f"></div>
+                    </a>
+                    <a class="media-icons" href= "http://www.instagram.com/mrsucla/">
+                        <div class="fab fa-instagram"></div>
+                    </a>
+                    <a class="media-icons" href= "mailto:materialsresearchbruins@gmail.com">
+                        <div class="fas fa-envelope"></div>
+                    </a>
+                </div> 
+                <div class="contact-container">
+                    <h3>email: materialsresearchbruins@gmail.com</h3>
+                </div>
+        </div>
+    </div> 
+    </footer>
 </body>
-<script>
-var slideIndex = 0;
-carousel();
+    
+    <script>
+    var slideIndex = 0;
+    carousel();
 
-function carousel() {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
-  }
-  slideIndex++;
-  if (slideIndex > x.length) {slideIndex = 1}
-  x[slideIndex-1].style.display = "block";
-  setTimeout(carousel, 3000); // Change image every 2 seconds
-}
-</script>
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("slides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > x.length) {slideIndex = 1}
+      x[slideIndex-1].style.display = "block";
+      setTimeout(carousel, 3000); // Change image every 2 seconds
+    }
+    </script>
+    
 </html>
+    
