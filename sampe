@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/> <!-- setting up metadata about this doc -->
+    <meta name="viewport" content="width-device-width, initial scale=1, shrink-to-fit=no"/> <!-- how the doc changes with screen width -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Materials Research Society at UCLA - Home</title>
+    <link href="styles.css" rel="stylesheet"> <!-- set up link between index and css file -->
+    <!-- for social media icons -->
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <!-- for fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation top bar-->
+    <div class="nav-container">
+        <div class="wrapper">
+        <nav>
+            <img class="logo" src=/Photos/mrsblueonwhite.png>
+            <ul class="nav-items"> <!-- unordered list of items -->
+                <li>
+                    <a href="index.html"> Home </a> <!-- href links to top of page -->
+                </li>
+                <li>
+                    <a href="aboutus.html"> About Us </a> 
+                </li>
+                <li>
+                    <a href="events.html"> Events </a> 
+                </li>
+                <li>
+                    <a href="#"> Research </a> 
+                </li>
+                <li>
+                    <a href="#"> SAMPE </a>
+                </li>
+                <li>
+                    <a href="#"> Sponsors </a> 
+                </li>
+                <li>
+                    <a href="#"> Join Us </a>
+                </li>
+            </ul>
+        </nav>
+        </div>
+    </div>
+
+    <div class="gap"></div>
+    
+    <div class="main-container">
+        <div class="wrapper">
+            <div class="header-content">
+                <h1>SAMPE</h1>
+            </div>
+        </div>
+        <div class="intro-picture-container">
+            <div class="sampe-picture-container">
+                <img class="sampe-picture" src="Photos/sampe.jpg">
+            </div>
+            <div class="sampe-caption-container">
+                <p class="sampe-caption"><b>SAMPE members at competition</b></p>
+            </div>
+        </div>
+        <div class="sampe-intro-blurb">
+            <p>yuck this is intro to SAMPE don’t talk to syd about this bc she doesnt know anything blurb here blurb here blurb here blurb here blurb here short blurb hopefully</p>
+        </div>
+           
+    </div>
+    
+    <!-- Footer-->
+    <footer>
+    <div class="footer-container">
+        <div class="wrapper">
+                <div class="media-icons-container">
+                    <a class="media-icons" href= "https://www.facebook.com/MRSUCLA">
+                        <div class="fab fa-facebook-f"></div>
+                    </a>
+                    <a class="media-icons" href= "http://www.instagram.com/mrsucla/">
+                        <div class="fab fa-instagram"></div>
+                    </a>
+                    <a class="media-icons" href= "mailto:materialsresearchbruins@gmail.com">
+                        <div class="fas fa-envelope"></div>
+                    </a>
+                </div> 
+                <div class="contact-container">
+                    <h3>email: materialsresearchbruins@gmail.com</h3>
+                </div>
+        </div>
+    </div> 
+    </footer>
+    
+</body>
+    
+</html>
+    
